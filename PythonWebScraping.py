@@ -9,6 +9,25 @@ Created on Mon Jan 27 14:57:11 2020
 import requests
 from bs4 import BeautifulSoup
 
+
+#source = requests.get(f'https://data.richmond.com/salaries/2018/state/virginia-commonwealth-university/michael-rao')
+
+#soup = BeautifulSoup(source.text, 'html.parser')
+#main_box = soup.find("div", class_='pay')
+#salary = main_box.find('h2').text
+
+#main_box = soup.find_all("div", class_='col-12 col-lg-8')
+#print(len(main_box))
+
+
+
+#print(salary)
+
+
+
+
+
+
 #Corey Schafer's BeautifulSoup web scraper
 #source = requests.get('http://coreyms.com').text
 #
@@ -41,26 +60,41 @@ from bs4 import BeautifulSoup
 
 
 
-##Start with a list of prominent employes of UVA, and VCU's president Michael Rao
-#names = ['Tony Bennett', 'James E Ryan', 'Bronco Mendenhall', 'Carla Williams', 'Scott C Beardsley', 'Craig Benson', 
-#         'Ian Baucom', 'Michael Rao']
+##Start with a list of prominent employees at UVA
+#names = ['Tony Bennett', 'James E Ryan', 'Bronco Mendenhall', 'Carla Williams', 'Scott C Beardsley', 'Craig Benson', 'Ian Baucom']
+
+names = ['Tony Bennett']
+
+formatted_names_of_important_people = []
+
+#start with a little string formatting. I am formatting each name so I can insert it into the URL
+for important_person in names:
+    important_person = important_person.replace(' ', '-')
+    important_person = important_person.lower()
+    formatted_names_of_important_people.append(important_person)
+
+#using f strings to insert name into source URL
+
+#for name in formatted_names_of_important_people:
+#    print(name)
+#    source = requests.get(f'https://data.richmond.com/salaries/2018/state/university-of-virginia/{name}')
+#    soup = BeautifulSoup(source.text, 'html.parser')
 #
-#formatted_names_of_important_people = []
-#
-##start with a little string formatting. I am formatting each name so I can insert it into the URL
-#for important_person in names:
-#    important_person = important_person.replace(' ', '-')
-#    important_person = important_person.lower()
-#    formatted_names_of_important_people.append(important_person)
+#    main_box = soup.find("div", class_='pay')
+#    salary = main_box.find('h2').text
+#    
+#    print(salary)
+    
 
-source = requests.get(f'https://data.richmond.com/salaries/2018/state/university-of-virginia/tony-bennett')
+####START HERE. FIND JOB (ex: Basketball coach) in class 'small text-muted'
+for name in formatted_names_of_important_people:
+    source = requests.get(f'https://data.richmond.com/salaries/2018/state/university-of-virginia/{name}')
+    soup = BeautifulSoup(source.text, 'html.parser')
 
-soup = BeautifulSoup(source.text, 'html.parser')
-main_box = soup.find("div", class_='pay')
-salary = main_box.find('h2').text
-        
+    main_box = soup.find_all("div", class_='col-12 col-lg-8')
+    test = main_box[0].find('b', class_='small text-muted')
+    print(test)
 
-
-
-
+    
+    
  
