@@ -51,8 +51,6 @@ example:
 
 ## **Page Source**
 To view the underlying html (or other) code of a website, choose any website, right click on the screen and 'View Page Source'. 
-
-    -At least, for Google Chrome and Firefox. Safari (and other) web browsers are slightly different
     
 -You will see a bunch of jumbled html code. Sometimes it is prettier than others. But, there it is! The code that powers the web page you are looking at. You'll see all kinds of tags. Some of the information is human readable and other parts are not. 
 
