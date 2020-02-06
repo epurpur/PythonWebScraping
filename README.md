@@ -19,12 +19,12 @@ I'm a part of a group called [research data services](https://data.library.virgi
 * [Workshop Series](https://data.library.virginia.edu/training/)
 
 ~R workshops
-  * Data Wrangling in R                                       Tuesday, 1/28  10:00 - 12:00 Brown 133
-  * Data Visualization in R                                   Tuesday, 2/4   10:00 - 12:00 Brown 133
+  * Shiny Web Apps in R                                      Tuesday,   2/11     10:00 - 12:00 Brown 133
+  * Introductory Statistics in R                             Wednesday, 2/12     10:00 - 12:00 Brown 133
+  * Linear Modeling in R                                     Wednesday, 2/19     10:00 - 12:00 Brown 133
   
 ~Python Workshops
-  * Data Visualization with MatPlotLib                        Tuesday, 2/4   2:00 - 4:00 Brown 133
-  * Web Scraping in Python                                    Tuesday, 2/11  2:00 - 4:00 Brown 133
+  * High Performance Python                                  Tuesday,   2/20     2:00 - 4:00   Brown 133
 
 
 We are partnering with Research Computing to offer all workshops in one series this semester!
@@ -44,7 +44,7 @@ HTML stands for HyperText Markup Language and is the basic structural element th
 HTML uses "markup" to annotate text, images, and other content for display in a web browser. An HTML tag defines one part of a webpage and the element inside the tag describes what content will be in that element. Tags have an opening and closing tag.
 
 ## **HTML Tags**
-There are many, just know that they each define 
+There are many, just know that they each define one element of the webpage. Each tag has a closing and ending tag. 
 
     <!DOCTYPE html>
     <html>
