@@ -8,17 +8,30 @@ Created on Mon Jan 27 14:57:11 2020
 
 import requests
 from bs4 import BeautifulSoup
+import pandas as pd
 
 
 source = requests.get(f'https://data.richmond.com/salaries/2018/state/university-of-virginia/tony-bennett')
 
 soup = BeautifulSoup(source.text, 'html.parser')
 
-main_box = soup.find("div", class_='col-12 col-lg-8')
+container = soup.find_all("div", class_='container')    #class_, because 'class' is a reserved word in python
 
-span_class = main_box.find_all("span")
+container = container[1]
 
-job_title = span_class[1].text
+job_title = container.find_all('span', class_='small text-muted')
+
+#row_12 = container.find_all('div', class_='row col-12')
+#
+#col_12_lg_8 = row_12[0].find_all('div', class_='col-12 col-lg-8')
+#
+#job_title = col_12_lg_8[0].find('span', class_='small text-muted')
+#
+#job_title = job_title.text
+#
+#print(job_title)
+
+
 
 
 
