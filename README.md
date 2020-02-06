@@ -38,16 +38,24 @@ Let's start with the basics. Basically, web scraping is extracting or retrieving
 
 Web pages are built using text-based markup langauges (like HTML!) and have a structure. You don't need to be that familiar with HTML to web scrape, but basically an HTML website is structured in a way that all information is inside various tags, very similar to XML.  
 
-## **HTML Tags**
-HTML stands for HyperText Markup Language and is the most basic building block of the web. It defines the meaning and structure of a website while other technologies define the site's appearance (CSS) and functionality (Javascript).
+## Quick Introduction to HTML
+HTML stands for HyperText Markup Language and is the basic structural element that is used to create web pages. It defines the structure of a website while other technologies define the site's appearance (CSS) and functionality (Javascript). When an HTML document is loaded by a web browser, the browser used HTML tags to render the page content.
 
 HTML uses "markup" to annotate text, images, and other content for display in a web browser. An HTML tag defines one part of a webpage and the element inside the tag describes what content will be in that element. Tags have an opening and closing tag.
 
-example: 
-<!DOCTYPE html>
-<html>
-<title> Page Title </title>
-</html>    
+## **HTML Tags**
+There are many, just know that they each define 
+
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <title>Page Title</title>
+        </head>
+        <body>
+            <h1>Homepage Headline</h1>
+            <p>This is a paragraph.</p>
+        </body>
+    </html>  
 
 ## **Page Source**
 To view the underlying html (or other) code of a website, choose any website, right click on the screen and 'View Page Source'. 
@@ -59,6 +67,8 @@ A more effective way (for our purposes) to view the page source is to right clic
 ## **Beautiful Soup**
 Today we will be using the [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/) python library to scrape web pages! The most recent version of Beautiful Soup is Beautiful Soup 4.8. Here is a link to [Beautiful Soup 4 Documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 
+Beautiful Soup 4 is a python library for pulling data out of HTML and XML files. Note, this is not all web pages!
+
 Here is a description from the Beautiful Soup Homepage:
 You didn't write that awful page. You're just trying to get some data out of it. Beautiful Soup is here to help. Since 2004, it's been saving programmers hours or days of work on quick-turnaround screen scraping projects.
 
@@ -69,6 +79,12 @@ Beautiful Soup is a Python library designed for quick turnaround projects like s
 2. Beautiful Soup automatically converts incoming documents to Unicode and outgoing documents to UTF-8. You don't have to think about encodings, unless the document doesn't specify an encoding and Beautiful Soup can't detect one. Then you just have to specify the original encoding.
 
 3. Beautiful Soup sits on top of popular Python parsers like lxml and html5lib, allowing you to try out different parsing strategies or trade speed for flexibility.
+
+
+## **Disclaimer**
+
+Many websites use the HTML structure, but some content on the site may be Javascript generated. Javascript is used to create 
+responsive, interactive elements of web pages. My point is, we cannot scrape javascript elements in the same way.
 
 
 
