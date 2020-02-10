@@ -84,7 +84,9 @@ Beautiful Soup is a Python library designed for quick turnaround projects like s
 ## **Disclaimer**
 
 Many websites use the HTML structure, but some content on the site may be Javascript generated. Javascript is used to create 
-responsive, interactive elements of web pages. My point is, we cannot scrape javascript elements in the same way.
+responsive, interactive elements of web pages. My point is, we cannot scrape javascript elements in the same way. One way to 
+do this is to use the package Selenium, which is outside the scope of this workshop. Basically in Selenium, you can use the 
+HTML page source of any site to interact with all the elements of the page such as input boxes, buttons, etc. 
 
 
 
