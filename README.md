@@ -18,14 +18,6 @@ I'm a part of a group called [research data services](https://data.library.virgi
 * [Research Data Services](https://data.library.virginia.edu/)
 * [Workshop Series](https://data.library.virginia.edu/training/)
 
-~R workshops
-  * Shiny Web Apps in R                                      Tuesday,   2/11     10:00 - 12:00 Brown 133
-  * Introductory Statistics in R                             Wednesday, 2/12     10:00 - 12:00 Brown 133
-  * Linear Modeling in R                                     Wednesday, 2/19     10:00 - 12:00 Brown 133
-  
-~Python Workshops
-  * High Performance Python                                  Tuesday,   2/20     2:00 - 4:00   Brown 133
-
 
 We are partnering with Research Computing to offer all workshops in one series this semester!
 [Research Computing](https://www.rc.virginia.edu/)
