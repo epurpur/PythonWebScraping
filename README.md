@@ -26,9 +26,9 @@ We are partnering with Research Computing to offer all workshops in one series t
 This is an introductory workshop to web scraping in Python. It is assumed you have at least a little bit of experience using Python, but not required. 
 
 ## ** What is web scraping? **
-Let's start with the basics. Basically, web scraping is extracting or retrieving data from a website. If you have ever copy and pasted a piece of information from a web page, you have manually done web scraping. Web scraping via a programming language like python automates the process to do it programmatically. We can use the structure of websites to drill down to the information we want, then extract it for our own purposes. 
+Let's start with the basics. Basically, web scraping is extracting or retrieving data from a website. If you have ever copy and pasted a piece of information from a web page, you have manually done web scraping. Web scraping via a programming language like python automates the process to do it programmatically. We can use the structure of websites to find to the information we want, then extract it for our own purposes. 
 
-Web pages are built using text-based markup langauges (like HTML!) and have a structure. You don't need to be that familiar with HTML to web scrape, but basically an HTML website is structured in a way that all information is inside various tags, very similar to XML.  
+Web pages are built using text-based markup langauges (like HTML!) and have a structure. You don't need to be that familiar with HTML to web scrape, but basically an HTML website is structured in a way that all information is inside various tags. If you are unfamiliar, think of HTML like the scaffolding of a building.
 
 ## Quick Introduction to HTML
 HTML stands for HyperText Markup Language and is the basic structural element that is used to create web pages. It defines the structure of a website while other technologies define the site's appearance (CSS) and functionality (Javascript). When an HTML document is loaded by a web browser, the browser used HTML tags to render the page content.
