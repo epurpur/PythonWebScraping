@@ -73,12 +73,13 @@ Beautiful Soup is a Python library designed for quick turnaround projects like s
 3. Beautiful Soup sits on top of popular Python parsers like lxml and html5lib, allowing you to try out different parsing strategies or trade speed for flexibility.
 
 
-## **Disclaimer**
+## **Selenium**
 
-Many websites use the HTML structure, but some content on the site may be Javascript generated. Javascript is used to create 
-responsive, interactive elements of web pages. My point is, we cannot scrape javascript elements in the same way. One way to 
-do this is to use the package Selenium, which is outside the scope of this workshop. Basically in Selenium, you can use the 
-HTML page source of any site to interact with all the elements of the page such as input boxes, buttons, etc. 
+Selenium automates your web browser. Link to the documentation: (https://www.selenium.dev/)[https://www.selenium.dev/]
+There are a lot of reasons why you might use this. It is commonly used for testing web applications but can also be used for purposed like web scraping, which we will do today!
+
+The first thing we need to use to use selenium is install a **web driver** which allows you to drive a browser natively with your code, just as if you were a human doing it. 
+
 
 
 
