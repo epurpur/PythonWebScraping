@@ -27,3 +27,9 @@ Now I will choose the appropriate version of ChromeDriver for my operating syste
 
 ![](./images/ChromeDriverInstall.png)
 
+The resulting file that is downloaded will be zipped. 
+
+#### Step 3: Move into your working directory
+
+Unzip the file you just downloaded and move it into your working directory. In this workshop we are working in the ***PythonWebScraping-master*** folder. All you have to do is drag it in there.
+
