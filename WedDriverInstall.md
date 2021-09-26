@@ -21,5 +21,9 @@ Go to this site: [https://chromedriver.chromium.org/](https://chromedriver.chrom
 
 Find the appropriate version of Chromedriver. I have Google Chrome version 94 installed so I will download Chromedriver version 94. 
 
+![](./images/ChromeDriverVersion.png)
 
+Now I will choose the appropriate version of ChromeDriver for my operating system. I am on a Mac so I will choose **chromedriver_mac64.zip**
+
+![](./images/ChromeDriverInstall.png)
 
