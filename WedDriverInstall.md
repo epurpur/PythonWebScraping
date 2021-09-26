@@ -14,3 +14,12 @@ then, see which version you have. Notice that I currently have version 94. Your 
 know what you have.
 
 ![](./images/ChromeVersion.png)
+
+
+#### Step 2: Install Google Chrome's Chromedriver
+Go to this site: [https://chromedriver.chromium.org/](https://chromedriver.chromium.org/)
+
+Find the appropriate version of Chromedriver. I have Google Chrome version 94 installed so I will download Chromedriver version 94. 
+
+
+
