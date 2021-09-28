@@ -29,10 +29,10 @@ This is an introductory workshop to web scraping in Python. It is assumed you ha
 ## ** What is web scraping? **
 Let's start with the basics. Basically, web scraping is extracting or retrieving data from a website. If you have ever copy and pasted a piece of information from a web page, you have manually done web scraping. Web scraping via a programming language like python automates the process to do it programmatically. We can use the structure of websites to find to the information we want, then extract it for our own purposes. 
 
-Web pages are built using text-based markup langauges (like HTML!) and have a structure. You don't need to be that familiar with HTML to web scrape, but basically an HTML website is structured in a way that all information is inside various tags.
+Web pages are built using text-based markup languages (like HTML!) and have a structure. You don't need to be that familiar with HTML to web scrape, but basically an HTML website is structured in a way that all information is inside various tags.
 
 ## Quick Introduction to HTML
-HTML stands for HyperText Markup Language and is the basic structural element that is used to create web pages. It defines the structure of a website while other technologies define the site's appearance (CSS) and functionality (Javascript). When an HTML document is loaded by a web browser, the browser used HTML tags to render the page content.
+HTML stands for HyperText Markup Language and is the basic structural element that is used to create web pages. It defines the structure of a website while other technologies define the site's appearance (CSS) and functionality (Javascript). When an HTML document is loaded by a web browser, the browser uses HTML tags to render the page content.
 
 HTML uses "markup" to annotate text, images, and other content for display in a web browser. An HTML tag defines one part of a webpage and the element inside the tag describes what content will be in that element. Tags have an opening and closing tag.
 
