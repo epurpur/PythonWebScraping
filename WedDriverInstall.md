@@ -19,7 +19,7 @@ know what you have.
 #### Step 2: Install Google Chrome's Chromedriver
 Go to this site: [https://chromedriver.chromium.org/](https://chromedriver.chromium.org/)
 
-Find the appropriate version of Chromedriver. I have Google Chrome version 94 installed so I will download Chromedriver version 94. 
+Find the appropriate version of Chromedriver. I have Google Chrome version 98 installed so I will download Chromedriver version 98. 
 
 ![](./images/ChromeDriverVersion.png)
 
