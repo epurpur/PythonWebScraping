@@ -19,12 +19,15 @@ I'm a part of a group called [research data services](https://data.library.virgi
 * [Research Data Services](https://data.library.virginia.edu/)
 * [Workshop Series](https://data.library.virginia.edu/training/)
 
-## Upcoming Workshops
+## **Upcoming Workshops**
+
 More Information Available here: https://data.library.virginia.edu/training/#py
 
-Python Web Scraping | Wednesday 2/23, 11:00 - 12:30
-Version Control with Git/Github | Tuesday 3/1, 10:00 - 11:30
-Introduction to Regular Expressions | Wednesday 3/2, 11:00 - 12:30
+* Python and APIs                               |      Wednesday 2/16,  11:00 - 12:30
+* Python Web Scraping                            |     Wednesday 2/23,  11:00 - 12:30
+* Version Control with Git/Github                 |    Tuesday   3/1,   10:00 - 11:30
+* Introduction to Regular Expressions              |   Wednesday 3/2,   11:00 - 12:30     
+
 
 We are partnering with Research Computing to offer all workshops in one series this semester!
 [Research Computing](https://www.rc.virginia.edu/)
