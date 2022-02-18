@@ -23,7 +23,6 @@ I'm a part of a group called [research data services](https://data.library.virgi
 
 More Information Available here: https://data.library.virginia.edu/training/#py
 
-* Python and APIs                               |      Wednesday 2/16,  11:00 - 12:30
 * Python Web Scraping                            |     Wednesday 2/23,  11:00 - 12:30
 * Version Control with Git/Github                 |    Tuesday   3/1,   10:00 - 11:30
 * Introduction to Regular Expressions              |   Wednesday 3/2,   11:00 - 12:30     
