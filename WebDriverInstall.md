@@ -17,7 +17,7 @@ know what you have.
 
 
 #### Step 2: Install Google Chrome's Chromedriver
-Go to this site: [https://chromedriver.chromium.org/](https://chromedriver.chromium.org/)
+Go to this site: [Chrome for Testing Availability Dashboard](https://googlechromelabs.github.io/chrome-for-testing/)
 
 Find the appropriate version of Chromedriver. I have Google Chrome version 94 installed so I will download Chromedriver version 94. 
 
