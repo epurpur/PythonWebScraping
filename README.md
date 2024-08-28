@@ -1,5 +1,5 @@
 ```
-Last updated 03/07/23
+Last updated 08/28/2024
 ```
 
 
@@ -10,7 +10,7 @@ Erich Purpur
 
     Research Librarian for Science & Engineering
     epurpur@virginia.edu
-    Brown Science & Engineering Library room I046
+    Brown Science & Engineering Library room I054
 
 
 I'm a part of a group called [research data services](https://data.library.virginia.edu/) and I do these things:
@@ -27,6 +27,18 @@ I'm a part of a group called [research data services](https://data.library.virgi
 
 We are partnering with Research Computing to offer all workshops in one series this semester!
 [Research Computing](https://www.rc.virginia.edu/)
+
+## Other Upcoming Workshops
+
+| Workshop | Date | Time |
+| ---- | ---- | ---- |
+| Intro to Python pt 1                                                |       Wednesday 9/4   |  10:00 - 11:30am
+| Intro to Python pt 2                                                |       Wednesday 9/11  |  10:00 - 11:30am
+| Intro to Version Control w/ Git + Github                            |       Wednesday 9/11  |  1:00 - 2:30pm
+| Python Data Analysis + Visualization                                |       Wednesday 9/18  |  10:00 - 11:30am
+| Local Large Language Models                                         |       Wednesday 9/25  |  10:00 - 11:30am
+| Python Web Scraping                                                 |       Wednesday 10/2  |  10:00 - 11:30am
+
 
 ## ** Python Web Scraping ** 
 This is an introductory workshop to web scraping in Python. It is assumed you have at least a little bit of experience using Python, but not required. 
@@ -81,7 +93,7 @@ Beautiful Soup is a Python library designed for quick turnaround projects like s
 
 ## **Selenium**
 
-Selenium automates your web browser. Link to the documentation: (https://www.selenium.dev/)[https://www.selenium.dev/]
+Selenium automates your web browser. Link to the documentation: [https://www.selenium.dev/](https://www.selenium.dev/)
 There are a lot of reasons why you might use this. It is commonly used for testing web applications but can also be used for purposed like web scraping, which we will do today!
 
 The first thing we need to use to use selenium is install a **web driver** which allows you to drive a browser natively with your code, just as if you were a human doing it. 
