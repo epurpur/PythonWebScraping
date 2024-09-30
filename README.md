@@ -70,12 +70,12 @@ There are many, just know that they each define one element of the webpage. Each
 ## **Page Source**
 To view the underlying html (or other) code of a website, choose any website, right click on the screen and 'View Page Source'. 
     
--You will see a bunch of jumbled html code. Sometimes it is prettier than others. But, there it is! The code that powers the web page you are looking at. You'll see all kinds of tags. Some of the information is human readable and other parts are not. 
+-You will see a bunch of jumbled html code. Sometimes it is prettier than others. But, there it is! The code that defines the web page you are looking at. You'll see all kinds of tags. Some of the information is human readable and other parts are not. 
 
 A more effective way (for our purposes) to view the page source is to right click and "Inspect". This is the same page source information, but structured better. Also, notice that you can move through the tags and see which control various parts of the web page. This will come in handy later!
 
 ## **Beautiful Soup**
-Today we will be using the [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/) python library to scrape web pages! The most recent version of Beautiful Soup is Beautiful Soup 4.8. Here is a link to [Beautiful Soup 4 Documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+Today we will be using the [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/) python library to scrape web pages! The most recent version of Beautiful Soup is Beautiful Soup 4.12. Here is a link to [Beautiful Soup 4 Documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 
 Beautiful Soup 4 is a python library for pulling data out of HTML and XML files. Note, this is not all web pages!
 
